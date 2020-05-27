@@ -7,7 +7,7 @@ logo:
 # Author image is used in site sidebar and greetings in the home page hero text
 author:
   image: 'satya.jpg'
-  greetings: "Hi there! My name is satyamuralidhar. Intrested in DataScience Hyderbadi. Welcome to my Blog."
+  greetings: "Hi there! My name is satyamuralidhar. Intrested in DataScience.Located in Hyderbad. Welcome to my Blog."
 favicon: 'assets/images/favicon.ico'
 baseurl:
 production_url: https://satyamuralidhar.github.com/
@@ -30,7 +30,7 @@ github: 'satyamuralidhar'
 medium: '@muralidhar.peddireddi'
 # instagram: 'username'
 # pinterest: 'username'
-linkedin: 'satya muralidhar peddireddi'
+linkedin: 'satya muralidhar Peddireddi'
 # producthunt: '@username'
 # quora: 'username'
 
