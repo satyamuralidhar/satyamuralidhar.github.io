@@ -1,2 +1,83 @@
-theme: jekyll-theme-cayman
-title: Welcome
+# Site setings
+name: 'Satya Muralidhar'
+description: 'DevOps , ML , Deeplearning & NLP'
+title: 'Data Science researcher'
+meta_description: 'Jekyll template, minimal style, perfect for bloggers.'
+logo:
+# Author image is used in site sidebar and greetings in the home page hero text
+author:
+  image: 'satya.jpg'
+  greetings: "Hi there! My name is Anuj Dutt. I'm a machine learning researcher, speaker and a musician based in Boston, USA. Welcome to my Blog."
+favicon: 'assets/images/favicon.ico'
+baseurl:
+production_url: https://satyamuralidhar.github.com/
+disqus: 'satyamuralidhar-github-io'
+mailchimp_url: '//justgoodthemes.us3.list-manage.com/subscribe/post?u=78f1bab16028354caeb23aecd&amp;id=4a7330d117'
+# Add your GA Tracking Id
+ga_analytics:
+
+# Contact form setings
+email: muralidhar.peddireddi@gmail.com
+#contact_page_description: "Horace theme comes with a contact form built-in. You can use this form with Formspree service and get up to 50 submissions for free. Also, you can easily switch to another service if you want."
+thankyou_page_description: "Your message has been successfully sent. We will contact you very soon!"
+
+# Social links
+#twitter: 'anujdutt92'
+# facebook: 'username'
+github: 'satyamuralidhar'
+# codepen: 'username'
+# dribbble: 'username'
+medium: '@muralidhar.peddireddi'
+# instagram: 'username'
+# pinterest: 'username'
+linkedin: 'satya muralidhar peddireddi'
+# producthunt: '@username'
+# quora: 'username'
+
+# Navigation
+navigation:
+  - text: Home
+    url: /
+  - text: About
+    url: /about
+  - text: Projects
+    url: /projects
+  - text: Contact Me
+    url: /contact
+
+# Required Plugins
+plugins_dir:
+  - jekyll-paginate
+  - jekyll-tagsgenerator
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-remote-theme
+  - jekyll-paginate
+  - jekyll-feed
+
+# Pagination
+paginate: 5
+paginate_path: /page:num/
+
+# Permalinks
+permalink: /:title
+
+# Use tags index page and make tags on each post clickable
+link-tags: true
+
+# Other
+markdown: kramdown
+highlighter: rouge
+
+# Sass
+sass:
+  sass_dir: _sass
+  style: compressed
+  
+
+# TEST
+kramdown:
+  input: GFM
+  auto_ids: true
+  syntax_highlighter: rouge
