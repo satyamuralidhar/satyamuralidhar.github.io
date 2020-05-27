@@ -2,8 +2,8 @@
 layout: post
 title: 'ML model Deployment in Docker'
 tags: [machinelearning ,Docker,datascience]
-featured_image_thumbnail: assets/images/posts/2020/rf.png
-featured_image: assets/images/posts/2020/flask.jpeg
+#featured_image_thumbnail: assets/images/posts/2020/rf.png
+featured_image: assets/images/posts/2020/flask.jpg
 featured: true
 hidden: true
 ---
