@@ -4,6 +4,11 @@
         {% include icons/twitter.html %}
     </a>
     {% endif %}
+    {% if site.kaggle %}
+    <a href="https://kaggle.com/{{ site.kaggle }}" target="_blank">
+        {% include icons/kaggle.html %}
+    </a>
+    {% endif %}
     {% if site.facebook %}
     <a href="https://www.facebook.com/{{ site.facebook }}" target="_blank">
         {% include icons/facebook.html %}
